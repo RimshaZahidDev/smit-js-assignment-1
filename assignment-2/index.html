@@ -182,8 +182,81 @@
     }</pre>
         <button class="btn btn-success btn-lg mt-4" onclick="checkConditionD()">Check Alert</button>
     </div>
+    <!-- Condition (e) -->
+    <div class="container border border-warning rounded-3 p-5 mt-3 bg-light">
+        <h3 class="display-4 text-warning">Condition (e):</h3>
+        <pre id="code-e">if (true) {
+        alert("True");
+    }
+    if (false) {
+        alert("False");
+    }</pre>
+        <button class="btn btn-warning btn-lg mt-4" onclick="checkConditionE()">Check Alert</button>
+    </div>
+    <!-- Condition (f) -->
+    <div class="container border border-info rounded-3 p-5 mt-3 bg-light">
+        <h3 class="display-4 text-info">Condition (f):</h3>
+        <pre id="code-f">if("car" < "cat") {
+        alert("car is smaller than cat");
+    }</pre>
+        <button class="btn btn-info btn-lg mt-4" onclick="checkConditionF()">Check Alert</button>
+    </div><!-- Question 6  -->
 
-    <script src="script.js"></script>
+    <div class="container border border-danger rounded-3 p-5 mt-3 bg-light">
+        <h3 class="display-4 text-danger">Question 6: </h3>
+        <h2 class="text-danger">Marks and Grade Calculation:</h2>
+        <button class="btn btn-danger btn-lg mt-4" onclick="calculateGrade()">Calculate</button>
+        <p id="result-marks" class="mt-2"></p>
+    </div>
+
+    <!-- Question 7  -->
+    <div class="container border border-warning rounded-3 p-5 mt-3 bg-light">
+        <h3 class="display-4 text-warning">Question 7: </h3>
+        <h2 class="text-warning">Guess Game</h2>
+        <button class="btn btn-warning btn-lg mt-4" onclick="guessGame()">Play Game</button>
+        <p id="result-guess"></p>
+    </div>
+
+    <!-- question 8  -->
+    <div class="container border border-info rounded-3 p-5 mt-3 bg-light">
+        <h3 class="display-4 text-info">Question 8: </h3>
+        <h2 class="text-info">Divisibility Check (by 3)</h2>
+        <button class="btn btn-info btn-lg mt-4" onclick="checkDivisibleBy3()">Check Divisibility</button>
+        <p id="result-divisible"></p>
+    </div>
+
+    <!-- question 9  -->
+    <div class="container border border-success rounded-3 p-5 mt-3 bg-light">
+        <h3 class="display-4 text-success">Question 9: </h3>
+        <h2 class="text-success">Even or Odd Check</h2>
+        <button class="btn btn-success btn-lg mt-4" onclick="checkEvenOdd()">Check Even or Odd</button>
+        <p id="result-evenodd"></p>
+    </div>
+
+    <!-- question 10  -->
+    <div class="container border border-danger rounded-3 p-5 mt-3 bg-light">
+        <h3 class="display-4 text-danger">Question 10: </h3>
+        <h2 class="text-danger">Temperature Check</h2>
+        <button class="btn btn-danger btn-lg mt-4" onclick="checkTemperature()">Check Temperature</button>
+        <p id="result-temp"></p>
+    </div>
+
+    <!-- question 11  -->
+    <div class="container border border-info rounded-3 p-5 mt-3 bg-light">
+        <h3 class="display-4 text-info">Question 11: </h3>
+        <h2 class="text-info">Simple Calculator</h2>
+        <button class="btn btn-info btn-lg mt-4" onclick="calculate()">Calculate</button>
+        <p id="result-calc"></p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
+<script src="script.js"></script>
 </body>
 
 </html>
